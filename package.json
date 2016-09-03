@@ -1,0 +1,18 @@
+{
+  "name": "memory-game",
+  "version": "0.0.0",
+  "private": true,
+  "author": "YourName",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base public/ --inline --progress"
+  },
+  "dependencies": {
+    "css-loader": "=0.23.1",
+    "less": "=2.7.0",
+    "less-loader": "=2.2.3",
+    "style-loader": "=0.13.1",
+    "webpack": "=1.13.1",
+    "webpack-dev-server": "=1.14.1"
+  }
+}

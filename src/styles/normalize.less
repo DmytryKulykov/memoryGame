@@ -1,0 +1,30 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: @textFontSize;
+}
+
+body {
+  background: @bgColor;
+  margin: 0;
+  padding: @unit;
+  color: @textColor;
+  font-family: @textFontFamily;
+  line-height: @unit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @titleFontFamily;
+}
+
+a, a:hover, a:focus, a:visited {
+  color: @textColor;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer; // fix cursor for links without href
+}
