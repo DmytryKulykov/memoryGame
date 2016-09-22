@@ -37,7 +37,6 @@ module.exports = {
     loaders: [ // webpack.github.io/docs/loaders.html
       // CSS: github.com/webpack/css-loader
       {test: /\.(css(\?.*)?)$/, loaders: ["style", "css"]},
-
       // LESS: github.com/webpack/less-loader
       {test: /\.(less(\?.*)?)$/, loaders: ["style", "css", "less"]},
     ],
